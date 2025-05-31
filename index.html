@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Garces Portfolio</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+	    background-image: url("bg.png");
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Header Section */
+        .header {
+            background-color: #000;
+
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .portfolio-title {
+            font-size: 2.5rem;
+            letter-spacing: 3px;
+            margin-bottom: 0.5rem;
+            font-weight: 300;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            margin-bottom: 1.5rem;
+            font-weight: 300;
+        }
+        
+        .hero-text {
+            font-size: 2rem;
+            margin: 2rem 0;
+            letter-spacing: 1px;
+        }
+        
+        .sub-hero {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+        
+        /* About Section */
+        .about-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 3rem;
+            background-color: #fff;
+        }
+        
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+            padding: 1rem;
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        .about-content {
+            flex: 1;
+            min-width: 300px;
+            padding: 1rem;
+        }
+        
+        .about-title {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: #222;
+        }
+        
+        .testimonial {
+            margin-top: 2rem;
+            font-style: italic;
+        }
+        
+        .testimonial-name {
+            font-weight: bold;
+            margin-top: 0.5rem;
+        }
+        
+        /* Gallery Section */
+        .gallery-section {
+            padding: 3rem;
+            background-color: #f9f9f9;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #222;
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.02);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .social-links {
+            margin: 1rem 0;
+        }
+        
+        .social-links a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+        
+        .copyright {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .portfolio-title {
+                font-size: 2rem;
+            }
+            
+            .hero-text {
+                font-size: 1.5rem;
+            }
+            
+            .about-section {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1 class="portfolio-title">SEAN GARCES PORTFOLIO</h1>
+        <p class="tagline">CINEMATIC | CANDID | LIFESTYLE</p>
+        
+        <div class="hero-text">THE ART OF STORYTELLING</div>
+        <p class="sub-hero">Capturing The Heart of Every Masterpiece</p>
+        
+        <p>A CREATIVE DIRECTOR AND PORTRAIT PHOTOGRAPHER WHO TURNS HIS VISUALS INTO REALITY.</p>
+    </header>
+    
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="about-image">
+            <!-- Replace with your about image -->
+            <img src="me.png" alt="Sean Garces">
+        </div>
+        
+        <div class="about-content">
+            <h2 class="about-title">ABOUT ME</h2>
+            <p>Sean Garces is a professional portrait and creative photographer based in Dasmariñas City, Cavite, Philippines. He is currently taking Bachelor of Multimedia Arts while having his freelance work and photographer at his church.</p>
+<br/>
+<p>This is his passions, to give his family a successful life. At his early age he started to work with amateurs and professionals. He starts from a personal assistant of different studio owners until now for him to learn and to grow as he take this path.</p><br/>
+            
+            <p>My approach combines technical expertise with artistic vision, resulting in images that are not just photographs, but lasting memories and works of art.</p>
+            
+            
+        </div>
+    </section>
+    
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <h1 class="section-title">MY WORK</h1>
+	<h2 class="section-title">CLAIRE ANN</h2>
+        <div class="gallery-grid">
+            <!-- Replace these with your actual gallery images -->
+            <div class="gallery-item">
+                <img src="1.png" alt="Portfolio Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="2.png" alt="Portfolio Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="3.png" alt="Portfolio Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="4.png" alt="Portfolio Image 4">
+            </div>
+	    <div class="gallery-item">
+                <img src="5.png" alt="Portfolio Image 5">
+            </div>
+        </div>
+    </section>
+<section class="gallery-section">
+        <h2 class="section-title">CHRISHANTI DESTINE</h2>
+        <div class="gallery-grid">
+            <!-- Replace these with your actual gallery images -->
+            <div class="gallery-item">
+                <img src="6.png" alt="Portfolio Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="7.png" alt="Portfolio Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="8.png" alt="Portfolio Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="9.png" alt="Portfolio Image 4">
+            </div>
+            <div class="gallery-item">
+                <img src="10.png" alt="Portfolio Image 4">
+            </div>
+        </div>
+    </section>
+<section class="gallery-section">
+        <h2 class="section-title">DONNAWEL</h2>
+        <div class="gallery-grid">
+            <!-- Replace these with your actual gallery images -->
+            <div class="gallery-item">
+                <img src="11.png" alt="Portfolio Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="12.png" alt="Portfolio Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="13.png" alt="Portfolio Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="14.png" alt="Portfolio Image 4">
+            </div>
+            <div class="gallery-item">
+                <img src="15.png" alt="Portfolio Image 4">
+            </div>
+        </div>
+    </section>
+</section>
+<section class="gallery-section">
+        <h2 class="section-title">Jannes Magayon</h2>
+        <div class="gallery-grid">
+            <!-- Replace these with your actual gallery images -->
+            <div class="gallery-item">
+                <img src="16.png" alt="Portfolio Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="17.png" alt="Portfolio Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="18.png" alt="Portfolio Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="19.png" alt="Portfolio Image 4">
+            </div>
+            <div class="gallery-item">
+                <img src="20.png" alt="Portfolio Image 4">
+            </div>
+        </div>
+    </section>
+    
+</section>
+<section class="gallery-section">
+        <h2 class="section-title">Jonalyn Burgos</h2>
+        <div class="gallery-grid">
+            <!-- Replace these with your actual gallery images -->
+            <div class="gallery-item">
+                <img src="21.png" alt="Portfolio Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="22.png" alt="Portfolio Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="23.png" alt="Portfolio Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="24.png" alt="Portfolio Image 4">
+            </div>
+            <div class="gallery-item">
+                <img src="25.png" alt="Portfolio Image 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h3>CONNECT WITH ME</h3>
+        <div class="social-links">
+            <a href="https://www.instagram.com/_seangarcesgallery/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/seangarcesgallery" target="_blank">Facebook</a>
+            <a href="https://www.behance.net/garcessean" target="_blank">Behance</a>
+        </div>
+        <div class="copyright">
+            &copy; <span id="year"></span> SEAN GARCES PORTFOLIO. ALL RIGHTS RESERVED.
+        </div>
+    </footer>
+    
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
